@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="./svg/setting 1.svg" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">
+        <div class="menu-upper">
+          <div class="logo">
+            <svg class="logo" width="37" height="37">
+              <use href="./svg/svgsprite.svg#icon-setting"></use>
+            </svg>
+            <h1>Dashboard <span class="logo-sp">v.01</span></h1>
+            <div class="close-btn">
+              <button type="button">
+                <svg class="close-menu" width="16" height="16">
+                  <use href="./svg/svgsprite.svg#icon-close-black"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <ul class="menu-items">
+            <li class="menu-items-list">
+              <div class="menu-item-list-right">
+                <svg class="menu-items-svg" width="24" height="24">
+                  <use href="./svg/svgsprite.svg#icon-key-square"></use>
+                </svg>
+                <p class="menu-items-desc">Dashboard</p>
+              </div>
+            </li>
+            <li class="menu-items-list">
+              <div class="menu-item-list-right">
+                <svg class="menu-items-svg-fill" width="24" height="24">
+                  <use href="./svg/svgsprite.svg#icon-d-square"></use>
+                </svg>
+                <p class="menu-items-desc">Product</p>
+              </div>
+              <svg class="menu-items-svg-back" width="16" height="16">
+                <use href="./svg/svgsprite.svg#icon-chevron-right"></use>
+              </svg>
+            </li>
+            <li class="menu-items-list active-li">
+              <div class="menu-item-list-right">
+                <svg class="menu-items-svg" width="24" height="24">
+                  <use href="./svg/svgsprite.svg#icon-user-square"></use>
+                </svg>
+                <p class="menu-items-desc">Customers</p>
+              </div>
+              <svg class="menu-items-svg-back" width="16" height="16">
+                <use href="./svg/svgsprite.svg#icon-chevron-right"></use>
+              </svg>
+            </li>
+            <li class="menu-items-list">
+              <div class="menu-item-list-right">
+                <svg class="menu-items-svg" width="24" height="24">
+                  <use href="./svg/svgsprite.svg#icon-wallet-money"></use>
+                </svg>
+                <p class="menu-items-desc">Income</p>
+              </div>
+              <svg class="menu-items-svg-back" width="16" height="16">
+                <use href="./svg/svgsprite.svg#icon-chevron-right"></use>
+              </svg>
+            </li>
+            <li class="menu-items-list">
+              <div class="menu-item-list-right">
+                <svg class="menu-items-svg-fill" width="24" height="24">
+                  <use href="./svg/svgsprite.svg#icon-discount-shape"></use>
+                </svg>
+                <p class="menu-items-desc">Promote</p>
+              </div>
+              <svg class="menu-items-svg-back" width="16" height="16">
+                <use href="./svg/svgsprite.svg#icon-chevron-right"></use>
+              </svg>
+            </li>
+            <li class="menu-items-list">
+              <div class="menu-item-list-right">
+                <svg class="menu-items-svg-fill" width="24" height="24">
+                  <use href="./svg/svgsprite.svg#icon-message-question-1"></use>
+                </svg>
+                <p class="menu-items-desc">Help</p>
+              </div>
+              <svg class="menu-items-svg-back" width="16" height="16">
+                <use href="./svg/svgsprite.svg#icon-chevron-right"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <div class="user-profile">
+          <img src="./img/Ellipse 8.png" alt="avatar" width="42" height="42" />
+          <div class="user-profile-name">
+            <p class="user-profile-name-desc">Evano</p>
+            <p class="user-profile-name-position">Project Manager</p>
+          </div>
+        </div>
+      </div>
+      <div class="content-main-left">
+        <div class="basic-content">
+          <div class="basic-content-burger">
+            <svg class="burger-menu" width="40" height="40">
+              <use href="./svg/svgsprite.svg#icon-burger-menu"></use>
+            </svg>
+            <h2 class="cl-hello">Hello Evano 👋🏼,</h2>
+          </div>
+          <div class="content">
+            <div class="contet">
+              <div class="contet-top">
+                <div class="cont-left">
+                  <h2 class="contet-tittle">All Customers</h2>
+                  <p class="contet-desc">Active Members</p>
+                </div>
+                <div class="search-inp">
+                  <form class="search-form">
+                    <button type="button" class="search-btn">
+                      <svg class="search-icon" width="24" height="24">
+                        <use href="./svg/svgsprite.svg#icon-search"></use>
+                      </svg>
+                    </button>
+                    <input
+                      class="search-input"
+                      type="search"
+                      name="search"
+                      id="search"
+                      placeholder="Search"
+                    />
+                  </form>
+                </div>
+              </div>
+              <div class="content-table">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Customer Name</th>
+                      <th>Company</th>
+                      <th>Phone Number</th>
+                      <th>Email</th>
+                      <th>Country</th>
+                      <th class="stat">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Jane Cooper</td>
+                      <td>Microsoft</td>
+                      <td>(225) 555-0118</td>
+                      <td>jane@microsoft.com</td>
+                      <td>United States</td>
+                      <td><div class="statu-a">Active</div></td>
+                    </tr>
+                    <tr>
+                      <td>Floyd Miles</td>
+                      <td>Yahoo</td>
+                      <td>(205) 555-0100</td>
+                      <td>floyd@yahoo.com</td>
+                      <td>Kiribati</td>
+                      <td>
+                        <div class="statu-a inact">Inactive</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Ronald Richards</td>
+                      <td>Adobe</td>
+                      <td>(302) 555-0107</td>
+                      <td>ronald@adobe.com</td>
+                      <td>Israel</td>
+                      <td>
+                        <div class="statu-a inact">Inactive</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Marvin McKinney</td>
+                      <td>Tesla</td>
+                      <td>(252) 555-0126</td>
+                      <td>marvin@tesla.com</td>
+                      <td>Iran</td>
+                      <td><div class="statu-a">Active</div></td>
+                    </tr>
+                    <tr>
+                      <td>Jerome Bell</td>
+                      <td>Google</td>
+                      <td>(629) 555-0129</td>
+                      <td>jerome@google.com</td>
+                      <td>Réunion</td>
+                      <td><div class="statu-a">Active</div></td>
+                    </tr>
+                    <tr>
+                      <td>Kathryn Murphy</td>
+                      <td>Microsoft</td>
+                      <td>(406) 555-0120</td>
+                      <td>kathryn@microsoft.com</td>
+                      <td>Curaçao</td>
+                      <td><div class="statu-a">Active</div></td>
+                    </tr>
+                    <tr>
+                      <td>Jacob Jones</td>
+                      <td>Yahoo</td>
+                      <td>(208) 555-0112</td>
+                      <td>jacob@yahoo.com</td>
+                      <td>Brazil</td>
+                      <td><div class="statu-a">Active</div></td>
+                    </tr>
+                    <tr>
+                      <td>Kristin Watson</td>
+                      <td>Facebook</td>
+                      <td>(704) 555-0127</td>
+                      <td>kristin@facebook.com</td>
+                      <td>Åland Islands</td>
+                      <td>
+                        <div class="statu-a inact">Inactive</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="content-bottom">
+                <p class="cont-bott-info">
+                  Showing data 1 to 8 of 256K entries
+                </p>
+                <ul class="pagination">
+                  <li class="pagination-num">
+                    <a href="" class="pag-desc"><</a>
+                  </li>
+                  <li class="pagination-num active-page">
+                    <a href="" class="pag-desc">1</a>
+                  </li>
+                  <li class="pagination-num">
+                    <a href="" class="pag-desc">2</a>
+                  </li>
+                  <li class="pagination-num">
+                    <a href="" class="pag-desc">3</a>
+                  </li>
+                  <li class="pagination-num">
+                    <a href="" class="pag-desc">4</a>
+                  </li>
+                  <li class="pagination-num">
+                    <a href="" class="pag-desc none-bg">...</a>
+                  </li>
+                  <li class="pagination-num">
+                    <a href="" class="pag-desc">40</a>
+                  </li>
+                  <li class="pagination-num">
+                    <a href="" class="pag-desc">></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
